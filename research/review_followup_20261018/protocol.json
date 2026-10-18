@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-18T00:58:16.289229+00:00",
+  "purpose": "Reviewer follow-up with fixed analyses; no new architecture or hyperparameter search",
+  "already_inspected": [
+    "2022-2025",
+    "2026H1",
+    "2026Q3"
+  ],
+  "training": "2000-2019",
+  "selection": "2020-2021; original complete-input validation early stopping, unchanged training recipe",
+  "repeats": {
+    "variants": [
+      "empirical_affine",
+      "empirical_no_distribution_query",
+      "empirical_no_availability"
+    ],
+    "new_seeds": [
+      29,
+      43
+    ],
+    "reference_seed": 17,
+    "max_epochs": 30,
+    "patience": 5,
+    "batch_size": 512,
+    "source_model_sha256": "34f89e5208f97f0eea5dde20973f06a90ccb3d6c111395164d20f96ca51fa4bd"
+  },
+  "missing_weather": {
+    "scenarios": [
+      "complete",
+      "random30",
+      "last24",
+      "all_missing"
+    ],
+    "mask": "torch CPU generator 777, one common persisted mask per scenario for all models; differs from historical GPU-stream mask and will be evaluated anew for both",
+    "period": "2022-2025; exploratory diagnostics",
+    "features": "Apply mask to raw weather channels4:8 in each 168h history. Native LightGBM NaNs in missing lags/differences; available-only mean/std, NaN if no observations. Additional causal train-mean imputation control. Both reported, no test selection.",
+    "adapter": "Frozen empirical and Chronos base adapters and empirical no-availability, seed17, original checkpoint; trained with their historical mask recipe.",
+    "strong_baseline": "Keep original frozen161-feature36-model LightGBM, no weakening or retuning. Report both NaN and train-mean policies."
+  },
+  "high_wave": "For common diagnostic compare all models using site-specific95th percentile of all training hourly SWH. Report medianMAE,q90pinball,coverage80,intervalscore80. No test threshold fitting.",
+  "paper_policy": "Query and availability usefulness are empirical hypotheses, not guaranteed sources of accuracy; separate base adapter diagnostics from complete-input fusion results."
+}

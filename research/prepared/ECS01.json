@@ -1,0 +1,418 @@
+{
+  "id": "ECS01",
+  "sources": [
+    {
+      "kind": "atmosphere",
+      "path": "reanalysis-era5-single-levels-timeseries-sfcc21lnwo2.nc",
+      "sha256": "d058d63ae29750b99f051bf4498fb0abc9da17a4d71be3b0dd8bddfcab9cd096",
+      "coordinates": {
+        "latitude": 30.0,
+        "longitude": 124.5
+      },
+      "rows": 760656,
+      "start": "1940-01-01 00:00:00",
+      "end": "2026-10-09 23:00:00"
+    },
+    {
+      "kind": "waves",
+      "path": "reanalysis-era5-single-levels-timeseries-wavplcfho96.nc",
+      "sha256": "39727e44f82be8f767a528f0e31e7962ddd753ae8d86aa7b43ca07a9d2e925b0",
+      "coordinates": {
+        "latitude": 30.0,
+        "longitude": 124.5
+      },
+      "rows": 760656,
+      "start": "1940-01-01 00:00:00",
+      "end": "2026-10-09 23:00:00"
+    }
+  ],
+  "features": [
+    "swh",
+    "mwp",
+    "mwd_sin",
+    "mwd_cos",
+    "u10",
+    "v10",
+    "fg10",
+    "msl"
+  ],
+  "normalization_mean": [
+    1.522972055389787,
+    6.189953533873665,
+    0.36079996595241925,
+    0.14606339380118263,
+    -1.250058842842203,
+    -1.7640911885219541,
+    9.673513297405167,
+    101558.28123894878
+  ],
+  "normalization_scale": [
+    0.8299863930808752,
+    1.1318943935056722,
+    0.5046503315624665,
+    0.7705951676554417,
+    4.159626117370518,
+    5.9859492970108015,
+    4.091828365111158,
+    794.909914878225
+  ],
+  "training_high_wave_threshold_m": 3.1203390955924983,
+  "expected_hours": 227928,
+  "valid_windows": {
+    "train": 29184,
+    "validation": 2917,
+    "test": 5837
+  },
+  "yearly": [
+    {
+      "year": 2000,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2001,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2002,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2003,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2004,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2005,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2006,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2007,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2008,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2009,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2010,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2011,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2012,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2013,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2014,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2015,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2016,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2017,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2018,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2019,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2020,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2021,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2022,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2023,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2024,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2025,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    }
+  ],
+  "source_time_axes_equal": true,
+  "scope": "reanalysis retrospective forecasting; no operational availability claim",
+  "common_origin_windows": {
+    "train": 29184,
+    "validation": 2917,
+    "test": 5837
+  },
+  "excluded_for_cross_site_alignment": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  }
+}

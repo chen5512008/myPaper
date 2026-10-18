@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ECS01",
+    "latitude": 30.0,
+    "longitude": 124.5
+  },
+  {
+    "id": "BH01",
+    "latitude": 38.5,
+    "longitude": 120.0
+  },
+  {
+    "id": "SCS01",
+    "latitude": 21.0,
+    "longitude": 115.0
+  },
+  {
+    "id": "TS01",
+    "latitude": 24.0,
+    "longitude": 119.0
+  },
+  {
+    "id": "HN01",
+    "latitude": 19.0,
+    "longitude": 112.0
+  },
+  {
+    "id": "YS01",
+    "latitude": 35.0,
+    "longitude": 123.0
+  }
+]

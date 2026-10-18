@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-10-17T15:04:56.4464223Z",
+  "reason": "Native CPU CatBoost MultiQuantile failed with bad allocation; parallel workers were stopped before any score",
+  "failed_session": "16292",
+  "stopped_worker_ids": [
+    43748,
+    32920
+  ],
+  "replacement": "CatBoost GPU residual RMSE model plus 2020 per-horizon residual quantile calibration",
+  "replacement_seed_plan": [
+    17,
+    29,
+    43
+  ],
+  "base_training": "2000-2019",
+  "base_stopping_and_calibration": "2020",
+  "fusion_selection": "2021",
+  "test_metrics_read": false,
+  "native_multiquantile_results_available": false
+}

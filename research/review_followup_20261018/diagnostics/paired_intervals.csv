@@ -1,0 +1,17 @@
+scenario,reference,difference,ci_low,ci_high,block_days,replicates,distinct_origins,method
+complete,LightGBM_native_nan,0.0018252372435971142,0.0008511955245373983,0.002798252844684517,7,2000,5837,circular moving time blocks; all sites synchronized
+complete,LightGBM_native_nan,0.0018252372435971142,0.0007798153449246191,0.0028416160183264137,28,2000,5837,circular moving time blocks; all sites synchronized
+complete,LightGBM_train_mean,0.0018252372435971142,0.0008511955245373983,0.002798252844684517,7,2000,5837,circular moving time blocks; all sites synchronized
+complete,LightGBM_train_mean,0.0018252372435971142,0.0007798153449246191,0.0028416160183264137,28,2000,5837,circular moving time blocks; all sites synchronized
+random30,LightGBM_native_nan,-0.008337554508275835,-0.010424617022737354,-0.006434648970322828,7,2000,5837,circular moving time blocks; all sites synchronized
+random30,LightGBM_native_nan,-0.008337554508275835,-0.01098241061940256,-0.00576911507539166,28,2000,5837,circular moving time blocks; all sites synchronized
+random30,LightGBM_train_mean,-0.013094328995291164,-0.014930561930861175,-0.011446316336590994,7,2000,5837,circular moving time blocks; all sites synchronized
+random30,LightGBM_train_mean,-0.013094328995291164,-0.015229931466474857,-0.011038705486874889,28,2000,5837,circular moving time blocks; all sites synchronized
+last24,LightGBM_native_nan,-0.025009153253571278,-0.029938414846257904,-0.020679356406283832,7,2000,5837,circular moving time blocks; all sites synchronized
+last24,LightGBM_native_nan,-0.025009153253571278,-0.031354985857440634,-0.019173441628287286,28,2000,5837,circular moving time blocks; all sites synchronized
+last24,LightGBM_train_mean,-0.027112023326503178,-0.032518845773480784,-0.022447492603207306,7,2000,5837,circular moving time blocks; all sites synchronized
+last24,LightGBM_train_mean,-0.027112023326503178,-0.03394330521847822,-0.020471416319543842,28,2000,5837,circular moving time blocks; all sites synchronized
+all_missing,LightGBM_native_nan,-0.031295127617372,-0.0370899331649793,-0.02618105677395894,7,2000,5837,circular moving time blocks; all sites synchronized
+all_missing,LightGBM_native_nan,-0.031295127617372,-0.03928892019227315,-0.023605504583861684,28,2000,5837,circular moving time blocks; all sites synchronized
+all_missing,LightGBM_train_mean,-0.030037988670089014,-0.03615417892093929,-0.02467523765029664,7,2000,5837,circular moving time blocks; all sites synchronized
+all_missing,LightGBM_train_mean,-0.030037988670089014,-0.03808544590816294,-0.022168795434019607,28,2000,5837,circular moving time blocks; all sites synchronized

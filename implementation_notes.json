@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-18T01:16:45.168822+00:00",
+  "feature_consistency": "Complete inputs use exact frozen161features; wave feature columns and site ID remain byte-exact under every weather mask. Weather rolling statistics use available values in the original newest-to-oldest summation order. Differences use only observed endpoints.",
+  "threshold_consistency": "Use previously archived training95th percentile thresholds in prepared/*.json; avoid changes due only to float32quantile output rounding.",
+  "mask_cache": "Unchanged deterministic nonrandom adapter masks reuse aligned archived forecasts; random30 is replayed on CPU using the common stored mask. No model or hyperparameter selection uses evaluation diagnostics.",
+  "pdf_mapping": "WPS truncates non-BMP mathematical Unicode to a high surrogate in ToUnicode; repair from embedded-font cmap using identity CIDToGID. Pixel-identical check and zero replacement characters required."
+}

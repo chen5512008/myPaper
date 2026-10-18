@@ -1,0 +1,7 @@
+variant,difference,ci_low,ci_high,block_days,replicates,distinct_origins,method
+shared_scale,0.0012530706321731554,0.0008558730466218964,0.0016418111491541309,7,2000,5837,circular moving time blocks; all sites synchronized
+shared_scale,0.0012530706321731554,0.0008024225653795621,0.0017249224561036978,28,2000,5837,circular moving time blocks; all sites synchronized
+no_query,-0.00011455728153093287,-0.00048801018480991546,0.00025577614774535234,7,2000,5837,circular moving time blocks; all sites synchronized
+no_query,-0.00011455728153093287,-0.0005122243731796219,0.00027937296102081675,28,2000,5837,circular moving time blocks; all sites synchronized
+no_availability,0.00021377982627667765,-0.0001669923892198017,0.000576663181109809,7,2000,5837,circular moving time blocks; all sites synchronized
+no_availability,0.00021377982627667765,-0.0002331360018866393,0.0006637532831247913,28,2000,5837,circular moving time blocks; all sites synchronized

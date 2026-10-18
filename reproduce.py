@@ -1,0 +1,9 @@
+from pathlib import Path
+import argparse,os,subprocess,sys
+root=Path(__file__).resolve().parent
+p=argparse.ArgumentParser();p.add_argument('--stage',choices=['figures','review-training','review-trees','review-adapters','review-metrics','fusion-metrics'],default='figures');a=p.parse_args()
+env=os.environ.copy();env.update(PYTHONUTF8='1',PYTHONIOENCODING='utf-8',CUBLAS_WORKSPACE_CONFIG=':4096:8',OMP_NUM_THREADS='2',OPENBLAS_NUM_THREADS='2')
+v=root/'research/review_followup_20261018';f=root/'research/fusion_revision_20261017'
+jobs={'figures':[(v/'method_figure.py',[]),(v/'figures.py',[]),(f/'figures.py',[])],'review-training':[(v/'run_repeats.py',[])],'review-trees':[(v/'diagnostics.py',['--phase','trees'])],'review-adapters':[(v/'diagnostics.py',['--phase','adapters'])],'review-metrics':[(v/'summarize_repeats.py',[]),(v/'diagnostics.py',['--phase','analyze'])],'fusion-metrics':[(f/'evaluate_repeats.py',[])]}
+if a.stage!='figures' and not (root/'research/prepared/BH01.npz').exists():raise SystemExit('Extract reproduction-assets.zip into this directory first. See README.md.')
+for script,args in jobs[a.stage]:subprocess.run([sys.executable,'-u',str(script),*args],env=env,check=True)

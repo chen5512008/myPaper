@@ -1,0 +1,50 @@
+[
+  {
+    "path": "research/protocol.json",
+    "old_sha256": "a730f0deb710014496a7e9e9f680e6939375ef13fcb60ebb26deec6af6791810",
+    "new_sha256": "3a30cbcbe042da7bc9cd1369835dceaf938372422e7e4ac9436239f7433b4075",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/fusion_revision_20261017/selection.json",
+    "old_sha256": "e4b4652855d933d24e0149f0590de08b785aa4691f8ba507ad1d7cd85f190964",
+    "new_sha256": "86b6e7ad8346eded9340437642284c0336b5c348c5c2f0ae0271e1ae769f422d",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/prepared/BH01.json",
+    "old_sha256": "58ada25cd329f459abcf3087f5f337859a1da3528738957d29529fa31742908c",
+    "new_sha256": "56d797fe56c26424e64ebe9dc819aa4c52a3db430ec2fb36cf2969696401849c",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/prepared/ECS01.json",
+    "old_sha256": "c689068b2b677fcbacb3744ec4c19a480e9c9665069a58e8542e1522e3b3944f",
+    "new_sha256": "3c4ea7b1b60678aabfd52c217c77ebf5686b95e3975d86adbe44583a111ae3bf",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/prepared/HN01.json",
+    "old_sha256": "f06b96e124899d85348bc928f4c60d5fa228d06a82d700c0d25b1659f48a08ab",
+    "new_sha256": "e6df424d2c8c83083dc2b8bb28eee9341031fee4e0ce5d66bab2e280526a43fa",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/prepared/SCS01.json",
+    "old_sha256": "9ff17dd92865d3979bfe529e6e9b16c288b6898ca95bbdcb8e109ed5dba9f6aa",
+    "new_sha256": "3d3750d11453b8a0dc32921e56aa6d93043a04b41dff5a36fd9efb6aecc2bbd4",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/prepared/TS01.json",
+    "old_sha256": "1961d01cdca9a3bbcd6fcecc358db9404423562347e0d2bc2e74baed69edfe45",
+    "new_sha256": "c7af68294beea1bbb2e5b56817992cf068a5674fcd1d16fd327252df251d5d89",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  },
+  {
+    "path": "research/prepared/YS01.json",
+    "old_sha256": "261524b1c28eb2cabbf832c1a2a2b411a7c9dc2aa5c079edec34a4abdb07de42",
+    "new_sha256": "ad1d4f5d92d7c3506528a6ad737637cf1086a4cae81d80e5346520799f0e6f31",
+    "change": "Replace original absolute metadata paths with basenames only; numerical configuration, model weights and array contents unchanged."
+  }
+]

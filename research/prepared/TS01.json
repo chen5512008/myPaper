@@ -1,0 +1,408 @@
+{
+  "id": "TS01",
+  "sources": [
+    {
+      "kind": "atmosphere",
+      "path": "reanalysis-era5-single-levels-timeseries-sfckhtwnjdu.nc",
+      "sha256": "5b7ac548a105195dd4bfde9fbf6553565f64e007950d99a1aac783081130ffe4",
+      "coordinates": {
+        "latitude": 24.0,
+        "longitude": 119.0
+      },
+      "rows": 760680,
+      "start": "1940-01-01 00:00:00",
+      "end": "2026-10-10 23:00:00"
+    },
+    {
+      "kind": "waves",
+      "path": "reanalysis-era5-single-levels-timeseries-wavti_weejh.nc",
+      "sha256": "1f6ed851eba7be43ddc01e5e317ee1ade20450252cf70b3c8551e656c872e8d2",
+      "coordinates": {
+        "latitude": 24.0,
+        "longitude": 119.0
+      },
+      "rows": 760680,
+      "start": "1940-01-01 00:00:00",
+      "end": "2026-10-10 23:00:00"
+    }
+  ],
+  "features": [
+    "swh",
+    "mwp",
+    "mwd_sin",
+    "mwd_cos",
+    "u10",
+    "v10",
+    "fg10",
+    "msl"
+  ],
+  "normalization_mean": [
+    1.6812081383010438,
+    5.675378270326562,
+    0.3836152285245753,
+    0.2131173394916177,
+    -2.9457376150515917,
+    -4.611903670697405,
+    11.87512058150325,
+    101305.07521425109
+  ],
+  "normalization_scale": [
+    1.1370565847996765,
+    1.1674958515453424,
+    0.44054177701049124,
+    0.7831623706234238,
+    3.9935896899934935,
+    6.797503942941925,
+    5.9203645907877505,
+    667.3030729394791
+  ],
+  "training_high_wave_threshold_m": 3.859207725524902,
+  "expected_hours": 227928,
+  "valid_windows": {
+    "train": 29184,
+    "validation": 2917,
+    "test": 5837
+  },
+  "yearly": [
+    {
+      "year": 2000,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2001,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2002,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2003,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2004,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2005,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2006,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2007,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2008,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2009,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2010,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2011,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2012,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2013,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2014,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2015,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2016,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2017,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2018,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2019,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2020,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2021,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2022,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2023,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2024,
+      "expected_hours": 8784,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    },
+    {
+      "year": 2025,
+      "expected_hours": 8760,
+      "missing_by_variable": {
+        "swh": 0,
+        "mwp": 0,
+        "mwd": 0,
+        "u10": 0,
+        "v10": 0,
+        "fg10": 0,
+        "msl": 0
+      }
+    }
+  ],
+  "source_time_axes_equal": true,
+  "scope": "reanalysis retrospective forecasting; no operational availability claim"
+}

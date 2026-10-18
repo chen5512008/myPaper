@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+*.nc
+*.zip
+.cdsapirc
+.env
+research/**/model.pt
+research/**/global.pt

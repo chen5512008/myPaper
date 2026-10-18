@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "BH01",
+    "YS01",
+    "ECS01",
+    "TS01",
+    "SCS01",
+    "HN01"
+  ],
+  "train": "2000-2019",
+  "validation": "2020-2021",
+  "test": "2022-2025",
+  "context": 168,
+  "horizons": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "stride": 6,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "normalization": "shared source training moments per fold",
+  "held_out_site_selection": "source validation only",
+  "existing_cache_source": "forecasts"
+}

@@ -1,0 +1,60 @@
+{
+  "review_followup_20261018/figures": {
+    "byte_identical_files": [
+      "ablation_en.pdf",
+      "ablation_en.png",
+      "ablation_en.svg",
+      "ablation_zh.pdf",
+      "ablation_zh.png",
+      "ablation_zh.svg",
+      "architecture_en.pdf",
+      "architecture_en.png",
+      "architecture_en.svg",
+      "architecture_zh.pdf",
+      "architecture_zh.png",
+      "architecture_zh.svg",
+      "interruption_en.pdf",
+      "interruption_en.png",
+      "interruption_en.svg",
+      "interruption_zh.pdf",
+      "interruption_zh.png",
+      "interruption_zh.svg"
+    ]
+  },
+  "fusion_revision_20261017/results/figures": {
+    "byte_identical_files": [
+      "coverage_width.pdf",
+      "coverage_width.png",
+      "coverage_width.svg",
+      "expert_weights.pdf",
+      "expert_weights.png",
+      "expert_weights.svg",
+      "model_comparison.pdf",
+      "model_comparison.png",
+      "model_comparison.svg",
+      "site_horizon_gain.pdf",
+      "site_horizon_gain.png",
+      "site_horizon_gain.svg"
+    ]
+  },
+  "fusion_revision_20261017/results/scores_by_seed.csv": {
+    "rows": 99,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "fusion_revision_20261017/results/fusion_repeated_block_intervals.csv": {
+    "rows": 54,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "review_followup_20261018/ablation_by_seed.csv": {
+    "rows": 12,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "review_followup_20261018/diagnostics/overall.csv": {
+    "rows": 24,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  }
+}

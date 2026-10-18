@@ -1,0 +1,854 @@
+{
+  "timestamp_utc": "2026-10-17T15:11:38.113994+00:00",
+  "members": [
+    "LightGBM",
+    "Neural3",
+    "Chronos_adapter",
+    "Chronos_native",
+    "XGBoost",
+    "CatBoost_RMSEcal",
+    "TabM"
+  ],
+  "single_2021": {
+    "LightGBM": 0.11984822861175586,
+    "Neural3": 0.11906384669730664,
+    "Chronos_adapter": 0.12192694121803152,
+    "Chronos_native": 0.14201440858843145,
+    "XGBoost": 0.1214685105363791,
+    "CatBoost_RMSEcal": 0.12577786695193538,
+    "TabM": 0.11591470736888052,
+    "LightGBM_calibrated": 0.11984813901893439,
+    "Persistence_quantile": 0.17016808438173625
+  },
+  "candidates": [
+    {
+      "method": "uniform",
+      "selection_loss": 0.1178794397342818
+    },
+    {
+      "method": "global_0.0",
+      "selection_loss": 0.1157836442659039,
+      "fit_info": {
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "iterations": 32
+      }
+    },
+    {
+      "method": "horizon_0.0",
+      "selection_loss": 0.11575142572217938,
+      "fit_info": [
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 33
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 33
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 29
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 32
+        }
+      ]
+    },
+    {
+      "method": "global_0.0001",
+      "selection_loss": 0.11577026343428887,
+      "fit_info": {
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "iterations": 30
+      }
+    },
+    {
+      "method": "horizon_0.0001",
+      "selection_loss": 0.115742765926673,
+      "fit_info": [
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 42
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 33
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 32
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 32
+        }
+      ]
+    },
+    {
+      "method": "global_0.001",
+      "selection_loss": 0.1157778234913841,
+      "fit_info": {
+        "success": true,
+        "message": "Optimization terminated successfully",
+        "iterations": 31
+      }
+    },
+    {
+      "method": "horizon_0.001",
+      "selection_loss": 0.11575357078893005,
+      "fit_info": [
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 48
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 37
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 36
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 45
+        }
+      ]
+    },
+    {
+      "method": "site_horizon_0.001",
+      "selection_loss": 0.11575876989867655,
+      "fit_info": [
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 36
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 18
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 20
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 17
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 38
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 44
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 11
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 22
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 30
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 17
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 4
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 27
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 23
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 28
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 16
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 23
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 41
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 18
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 16
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 27
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 37
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 27
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 15
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 26
+        }
+      ]
+    },
+    {
+      "method": "site_horizon_0.01",
+      "selection_loss": 0.11572230789257373,
+      "fit_info": [
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 21
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 17
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 18
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 18
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 22
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 19
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 10
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 22
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 13
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 21
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 4
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 14
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 14
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 13
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 12
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 19
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 18
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 9
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 12
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 18
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 21
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 21
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 9
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 20
+        }
+      ]
+    },
+    {
+      "method": "gate_0.001",
+      "selection_loss": 0.11566007882356644,
+      "best_epoch": 5,
+      "epochs": 17,
+      "trace": [
+        {
+          "epoch": 1,
+          "selection_loss": 0.11573691666126251
+        },
+        {
+          "epoch": 2,
+          "selection_loss": 0.1157301515340805
+        },
+        {
+          "epoch": 3,
+          "selection_loss": 0.11571072041988373
+        },
+        {
+          "epoch": 4,
+          "selection_loss": 0.1156841367483139
+        },
+        {
+          "epoch": 5,
+          "selection_loss": 0.11566007882356644
+        },
+        {
+          "epoch": 6,
+          "selection_loss": 0.1156904548406601
+        },
+        {
+          "epoch": 7,
+          "selection_loss": 0.11568610370159149
+        },
+        {
+          "epoch": 8,
+          "selection_loss": 0.11569061875343323
+        },
+        {
+          "epoch": 9,
+          "selection_loss": 0.11568818241357803
+        },
+        {
+          "epoch": 10,
+          "selection_loss": 0.11568666249513626
+        },
+        {
+          "epoch": 11,
+          "selection_loss": 0.11571726948022842
+        },
+        {
+          "epoch": 12,
+          "selection_loss": 0.11572142690420151
+        },
+        {
+          "epoch": 13,
+          "selection_loss": 0.1157238632440567
+        },
+        {
+          "epoch": 14,
+          "selection_loss": 0.1157231405377388
+        },
+        {
+          "epoch": 15,
+          "selection_loss": 0.11571898311376572
+        },
+        {
+          "epoch": 16,
+          "selection_loss": 0.11574447154998779
+        },
+        {
+          "epoch": 17,
+          "selection_loss": 0.11580752581357956
+        }
+      ]
+    },
+    {
+      "method": "gate_0.01",
+      "selection_loss": 0.1156916618347168,
+      "best_epoch": 16,
+      "epochs": 28,
+      "trace": [
+        {
+          "epoch": 1,
+          "selection_loss": 0.11574218422174454
+        },
+        {
+          "epoch": 2,
+          "selection_loss": 0.1157376766204834
+        },
+        {
+          "epoch": 3,
+          "selection_loss": 0.11572445183992386
+        },
+        {
+          "epoch": 4,
+          "selection_loss": 0.11570591479539871
+        },
+        {
+          "epoch": 5,
+          "selection_loss": 0.11571460217237473
+        },
+        {
+          "epoch": 6,
+          "selection_loss": 0.11571517586708069
+        },
+        {
+          "epoch": 7,
+          "selection_loss": 0.11571873724460602
+        },
+        {
+          "epoch": 8,
+          "selection_loss": 0.11571229994297028
+        },
+        {
+          "epoch": 9,
+          "selection_loss": 0.1157156452536583
+        },
+        {
+          "epoch": 10,
+          "selection_loss": 0.11570591479539871
+        },
+        {
+          "epoch": 11,
+          "selection_loss": 0.11570940166711807
+        },
+        {
+          "epoch": 12,
+          "selection_loss": 0.1157069206237793
+        },
+        {
+          "epoch": 13,
+          "selection_loss": 0.11570420861244202
+        },
+        {
+          "epoch": 14,
+          "selection_loss": 0.11570145934820175
+        },
+        {
+          "epoch": 15,
+          "selection_loss": 0.11571721732616425
+        },
+        {
+          "epoch": 16,
+          "selection_loss": 0.1156916618347168
+        },
+        {
+          "epoch": 17,
+          "selection_loss": 0.11571309715509415
+        },
+        {
+          "epoch": 18,
+          "selection_loss": 0.11570661514997482
+        },
+        {
+          "epoch": 19,
+          "selection_loss": 0.11570101231336594
+        },
+        {
+          "epoch": 20,
+          "selection_loss": 0.1157117411494255
+        },
+        {
+          "epoch": 21,
+          "selection_loss": 0.1157304123044014
+        },
+        {
+          "epoch": 22,
+          "selection_loss": 0.11570686101913452
+        },
+        {
+          "epoch": 23,
+          "selection_loss": 0.11570246517658234
+        },
+        {
+          "epoch": 24,
+          "selection_loss": 0.11571115255355835
+        },
+        {
+          "epoch": 25,
+          "selection_loss": 0.11573249101638794
+        },
+        {
+          "epoch": 26,
+          "selection_loss": 0.11571972817182541
+        },
+        {
+          "epoch": 27,
+          "selection_loss": 0.11572614312171936
+        },
+        {
+          "epoch": 28,
+          "selection_loss": 0.11574895679950714
+        }
+      ]
+    },
+    {
+      "method": "ordered_gate_0.001",
+      "selection_loss": 0.11583764851093292,
+      "best_epoch": 1,
+      "epochs": 13,
+      "trace": [
+        {
+          "epoch": 1,
+          "selection_loss": 0.11583764851093292
+        },
+        {
+          "epoch": 2,
+          "selection_loss": 0.11601219326257706
+        },
+        {
+          "epoch": 3,
+          "selection_loss": 0.11628752946853638
+        },
+        {
+          "epoch": 4,
+          "selection_loss": 0.11647190898656845
+        },
+        {
+          "epoch": 5,
+          "selection_loss": 0.11660797148942947
+        },
+        {
+          "epoch": 6,
+          "selection_loss": 0.11672676354646683
+        },
+        {
+          "epoch": 7,
+          "selection_loss": 0.1167491152882576
+        },
+        {
+          "epoch": 8,
+          "selection_loss": 0.11694613844156265
+        },
+        {
+          "epoch": 9,
+          "selection_loss": 0.11720945686101913
+        },
+        {
+          "epoch": 10,
+          "selection_loss": 0.11727923154830933
+        },
+        {
+          "epoch": 11,
+          "selection_loss": 0.11733720451593399
+        },
+        {
+          "epoch": 12,
+          "selection_loss": 0.11749903112649918
+        },
+        {
+          "epoch": 13,
+          "selection_loss": 0.1174866110086441
+        }
+      ]
+    },
+    {
+      "method": "ordered_gate_0.01",
+      "selection_loss": 0.11584221571683884,
+      "best_epoch": 1,
+      "epochs": 13,
+      "trace": [
+        {
+          "epoch": 1,
+          "selection_loss": 0.11584221571683884
+        },
+        {
+          "epoch": 2,
+          "selection_loss": 0.11602777987718582
+        },
+        {
+          "epoch": 3,
+          "selection_loss": 0.11630821973085403
+        },
+        {
+          "epoch": 4,
+          "selection_loss": 0.11648909747600555
+        },
+        {
+          "epoch": 5,
+          "selection_loss": 0.11664193123579025
+        },
+        {
+          "epoch": 6,
+          "selection_loss": 0.11673256009817123
+        },
+        {
+          "epoch": 7,
+          "selection_loss": 0.11675915867090225
+        },
+        {
+          "epoch": 8,
+          "selection_loss": 0.11690101027488708
+        },
+        {
+          "epoch": 9,
+          "selection_loss": 0.11721246689558029
+        },
+        {
+          "epoch": 10,
+          "selection_loss": 0.11726555973291397
+        },
+        {
+          "epoch": 11,
+          "selection_loss": 0.1173085868358612
+        },
+        {
+          "epoch": 12,
+          "selection_loss": 0.11743229627609253
+        },
+        {
+          "epoch": 13,
+          "selection_loss": 0.11742500960826874
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "method": "gate_0.001",
+    "selection_loss": 0.11566007882356644,
+    "best_epoch": 5,
+    "epochs": 17,
+    "trace": [
+      {
+        "epoch": 1,
+        "selection_loss": 0.11573691666126251
+      },
+      {
+        "epoch": 2,
+        "selection_loss": 0.1157301515340805
+      },
+      {
+        "epoch": 3,
+        "selection_loss": 0.11571072041988373
+      },
+      {
+        "epoch": 4,
+        "selection_loss": 0.1156841367483139
+      },
+      {
+        "epoch": 5,
+        "selection_loss": 0.11566007882356644
+      },
+      {
+        "epoch": 6,
+        "selection_loss": 0.1156904548406601
+      },
+      {
+        "epoch": 7,
+        "selection_loss": 0.11568610370159149
+      },
+      {
+        "epoch": 8,
+        "selection_loss": 0.11569061875343323
+      },
+      {
+        "epoch": 9,
+        "selection_loss": 0.11568818241357803
+      },
+      {
+        "epoch": 10,
+        "selection_loss": 0.11568666249513626
+      },
+      {
+        "epoch": 11,
+        "selection_loss": 0.11571726948022842
+      },
+      {
+        "epoch": 12,
+        "selection_loss": 0.11572142690420151
+      },
+      {
+        "epoch": 13,
+        "selection_loss": 0.1157238632440567
+      },
+      {
+        "epoch": 14,
+        "selection_loss": 0.1157231405377388
+      },
+      {
+        "epoch": 15,
+        "selection_loss": 0.11571898311376572
+      },
+      {
+        "epoch": 16,
+        "selection_loss": 0.11574447154998779
+      },
+      {
+        "epoch": 17,
+        "selection_loss": 0.11580752581357956
+      }
+    ]
+  },
+  "object": {
+    "method": "gate_0.001",
+    "path": "gate_0.001.pt"
+  },
+  "fit_targets": "2020",
+  "selection_targets": "2021",
+  "new_Q3_evaluated": false,
+  "new_models_seed": 17,
+  "existing_Neural3": "Prediction average of independent seeds17,29,43; explicitly an ensemble",
+  "new_models_manifest": {
+    "experts\\catpoint_17\\config.json": "6619517cbae59e7d4de76cc97bee8bcd5e5a574794c9c2e73a1d4a4b2f548ae4",
+    "experts\\catpoint_17\\h12.cbm": "b8d9bdb6385963b9cfe1be090cd232c7532390edd9c7425608652abfe9450f9d",
+    "experts\\catpoint_17\\h24.cbm": "f36e5dfb1fbf7e744d4fb1cfab6a9fe0abbdd60098b8b9301a0b0033afb276ba",
+    "experts\\catpoint_17\\h48.cbm": "ee33fe419f65d54bdd3c4798bc2e949772049a04110d00c87959e74851e6d751",
+    "experts\\catpoint_17\\h6.cbm": "e61534f6b83c1b725300ca789b32e9a2566504e97aeac58795226df770a6be8e",
+    "experts\\catpoint_17\\run.json": "2ba31d4f9e9599ae796f38a100c398fa64e330b960feb2afe87d5de343470ddf",
+    "experts\\tabm_17\\config.json": "5cbcb700d4af5c91dee444753acf4ede0bfd1d9a160510815918e0dfa4b4dce4",
+    "experts\\tabm_17\\global.pt": "8866df1b02dfe1b851f4bb77ab28e00c134d57882f6920a390bb60fd9fdba9d0",
+    "experts\\tabm_17\\h12.pt": "9bfd693da291e8b096e30a0a904de19397fefc7b337b7a699803fa2267be29c9",
+    "experts\\tabm_17\\h24.pt": "763487778b8e6f79d4c5bb77eacf9c0467a02f64c21c1224afe4fb67d30825f6",
+    "experts\\tabm_17\\h48.pt": "3956660b908bc418cdf976fb8080507f1b1deaea247acf71dec24a04448c3312",
+    "experts\\tabm_17\\h6.pt": "e2f6e523b51b919ca8cf4b167e4f315a4d15808513c13388371b7914ad8dc3c4",
+    "experts\\tabm_17\\history.json": "590e22d1146047869fa293a3a2963abc507d264fa7c1d612a73d4d055fdfa6c9",
+    "experts\\tabm_17\\run.json": "cf258628cd289dafd5f5b7ec66b5a209fc9e6fb885fd3943c819d402a6ae44e0",
+    "experts\\tabm_29\\config.json": "366d5fea522b0b87245fd37e251212264eb245781c91c118fb96a03ccdd1182d",
+    "experts\\tabm_29\\global.pt": "37dcd3ce27615b79dcd6d7ac41fd8a3e404b31a826d59c07e4090f35458e52b6",
+    "experts\\tabm_29\\h12.pt": "c04418e904b95c14b8142d7a4b29d7c6ea41695023ab5c05c9828c2a3c91a0ac",
+    "experts\\tabm_29\\h24.pt": "69b0f833bcada2d800f351c658ab14c34ddbd9dc44418fd78b32f6b1a2833cd2",
+    "experts\\tabm_29\\h48.pt": "726cbabf3e03dff3ed74afeb087f36ad0bf18cda0a79dc2c8aacc0f4ece25af3",
+    "experts\\tabm_29\\h6.pt": "90561f4312a00c5a0326791ea9d32b4f0de6da4d4b7d2990e4dd626e8357ed7a",
+    "experts\\tabm_29\\history.json": "809ef9689a273259a94cdc92a555e350b4c00507d278b047ad217e53643b0a14",
+    "experts\\tabm_29\\run.json": "7fb272591c0c14638dce4fb9153d6a45d660650d004bf267d80068391319c073",
+    "experts\\xgb_17\\h12.ubj": "8ffce74969ec08676f73f58ec08c9208c80d3ba5a8a064a3d430a85ae9c139fc",
+    "experts\\xgb_17\\h24.ubj": "454873d536073459fc40ff7149a0b6c132c7e7e958ffbcf6a7787aacd12eb3d9",
+    "experts\\xgb_17\\h48.ubj": "fa6e70245423674f905977e94b674ea11b1281b2118e3945a9bc4f8fe0d7cb82",
+    "experts\\xgb_17\\h6.ubj": "03640d7d3a91bbcde4c6a57ec8edb8f0602c5b08e62625e2a62aa9d8439d94ea",
+    "experts\\xgb_17\\run.json": "80cfd645ddfaffcaabe2fac31d5208badc83fd14e7a7e860c6fdd5612e7600c9",
+    "experts\\xgb_29\\h12.ubj": "397ce2f0c803dd854e5f017aea2bd4ee7bac8be61b15bd88aa40ffdce197748e",
+    "experts\\xgb_29\\h6.ubj": "28dbbd456d67a1a94942e31783086dca334ac86a43f21ac0f0d4e5509ad7ab9b"
+  },
+  "protocol": {
+    "timestamp_utc": "2026-10-17T14:49:09.007869+00:00",
+    "trigger": "User requested stronger algorithms and fusion after prior models failed stable superiority",
+    "known_evaluation_periods": [
+      "2022-2025",
+      "2026 H1; both previously inspected and exploratory in this turn"
+    ],
+    "new_reserved_confirmation": "2026-07-01 through 2026-09-30; predictions generated only after fusion choice frozen",
+    "train_base": "2000-2019",
+    "base_early_stopping": "2020 for new models; previously cached models selected on2020-2021 retain their original provenance",
+    "fusion_fit": "2020 out-of-training predictions",
+    "fusion_selection": "2021; fixed before any new fusion test scores",
+    "no_extra_label_control": "A horizon/quantile bias-calibrated LightGBM fitted on2020 is included alongside raw LightGBM",
+    "new_models": [
+      "XGBoost3.4.1 native multi-quantile on future-minus-current wave height",
+      "CatBoost1.2.10 MultiQuantile residual model",
+      "TabM0.0.3 ICLR2025 architecture with independent member quantile loss and global/per-horizon checkpoints"
+    ],
+    "fusion_candidates": [
+      "global convex pooling",
+      "horizon convex pooling",
+      "site/horizon convex pooling with shrinkage",
+      "small state-dependent gate with a convex-pool prior"
+    ],
+    "baseline_policy": "Compare each new component, raw strong LightGBM, calibrated LightGBM, uniform pool and selected fusion. Do not label a fusion as necessary if it cannot improve its own strongest component.",
+    "selection_metric": "Nine-quantile mean pinball over all4leads and6sites; no dropping six-hour horizon",
+    "repetitions": "Selected stochastic new components repeated at17,29,43, with fusion recipe locked; existing neural3-seed prediction ensemble is explicitly an ensemble",
+    "failure_policy": "Retain all attempted models and scores. No score-driven revisions after new Q3 outcomes. No guarantee of superiority or acceptance.",
+    "numerical_order": "Shared nonnegative weights across nine quantiles; monotone expert predictions ensure noncrossing pools",
+    "citations": {
+      "TabM": "https://github.com/yandex-research/tabm",
+      "TabM_paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/c1ba41c694834aeef91ae161711d4939-Paper-Conference.pdf",
+      "CatBoost_MultiQuantile": "https://catboost.ai/docs/en/concepts/loss-functions-regression",
+      "regression_2026_preprint": "https://arxiv.org/abs/2610.13909"
+    }
+  }
+}

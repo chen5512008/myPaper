@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-10-17T14:49:09.007869+00:00",
+  "trigger": "User requested stronger algorithms and fusion after prior models failed stable superiority",
+  "known_evaluation_periods": [
+    "2022-2025",
+    "2026 H1; both previously inspected and exploratory in this turn"
+  ],
+  "new_reserved_confirmation": "2026-07-01 through 2026-09-30; predictions generated only after fusion choice frozen",
+  "train_base": "2000-2019",
+  "base_early_stopping": "2020 for new models; previously cached models selected on2020-2021 retain their original provenance",
+  "fusion_fit": "2020 out-of-training predictions",
+  "fusion_selection": "2021; fixed before any new fusion test scores",
+  "no_extra_label_control": "A horizon/quantile bias-calibrated LightGBM fitted on2020 is included alongside raw LightGBM",
+  "new_models": [
+    "XGBoost3.4.1 native multi-quantile on future-minus-current wave height",
+    "CatBoost1.2.10 MultiQuantile residual model",
+    "TabM0.0.3 ICLR2025 architecture with independent member quantile loss and global/per-horizon checkpoints"
+  ],
+  "fusion_candidates": [
+    "global convex pooling",
+    "horizon convex pooling",
+    "site/horizon convex pooling with shrinkage",
+    "small state-dependent gate with a convex-pool prior"
+  ],
+  "baseline_policy": "Compare each new component, raw strong LightGBM, calibrated LightGBM, uniform pool and selected fusion. Do not label a fusion as necessary if it cannot improve its own strongest component.",
+  "selection_metric": "Nine-quantile mean pinball over all4leads and6sites; no dropping six-hour horizon",
+  "repetitions": "Selected stochastic new components repeated at17,29,43, with fusion recipe locked; existing neural3-seed prediction ensemble is explicitly an ensemble",
+  "failure_policy": "Retain all attempted models and scores. No score-driven revisions after new Q3 outcomes. No guarantee of superiority or acceptance.",
+  "numerical_order": "Shared nonnegative weights across nine quantiles; monotone expert predictions ensure noncrossing pools",
+  "citations": {
+    "TabM": "https://github.com/yandex-research/tabm",
+    "TabM_paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/c1ba41c694834aeef91ae161711d4939-Paper-Conference.pdf",
+    "CatBoost_MultiQuantile": "https://catboost.ai/docs/en/concepts/loss-functions-regression",
+    "regression_2026_preprint": "https://arxiv.org/abs/2610.13909"
+  }
+}

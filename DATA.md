@@ -1,0 +1,7 @@
+# Data provenance
+
+Data source: Copernicus Climate Change Service (C3S), ERA5 hourly time-series data on single levels from 1940 to present, DOI https://doi.org/10.24381/1cf1ad76 . Provider: ECMWF. Product page: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-timeseries . The product page specifies the CC-BY licence. The software MIT licence does not replace the source data licence.
+
+The accompanying assets contain transformed ERA5 records: significant wave height, mean wave period, sine and cosine of mean wave direction, 10 m u and v wind, 10 m gust and mean sea level pressure. These are single grid-point reanalysis series, not buoy measurements. Coordinates are in sites.json. Atmospheric and wave products have different native grids; the source files' returned coordinates were checked before alignment. Request the corresponding physical variables at each coordinate, hourly, UTC. Baseline/adapter training uses 2000–2019, validation 2020–2021 and previously inspected evaluation 2022–2025. Prepared arrays retain chronological origin indices and source-hash metadata. Current CDS downloads can differ from the retained snapshot; compare hashes rather than silently replacing it. The 2026 records have no confirmed final-versus-ERA5T identifier in the local metadata.
+
+Archive outputs include forecasts and evaluation results computed from these data. They are modifications and analyses of ERA5; ECMWF and C3S do not endorse the derived methods or results. No CDS token or other account secret is included.
