@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-18T04:12:56.319072+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "torch": "2.9.1+cu128",
+  "threads": 2,
+  "warmups": 2,
+  "repetitions": 9,
+  "synchronization": "CPU synchronous calls",
+  "input": "Same 512 origin sample, available historical observations; model-specific representation",
+  "measurement": "Model normalization/imputation and prediction/postprocessing. Excludes disk IO, history gathering, causal feature construction, foundation model inference and full seven-expert latency. No deployment speed claim for the seven-expert system.",
+  "feature_169_construction_batch512_seconds_single_measurement": 0.01761490001808852,
+  "host_caveat": "Shared desktop, timings are indicative and may vary with load."
+}

@@ -1,10 +1,22 @@
 # Offshore wave distribution adaptation
 
-Version 0.2.0, 18 October 2026. Author: Yujie Chen.
+Version 0.3.0, 18 October 2026. Author: Yujie Chen.
 
 Repository: https://github.com/chen5512008/myPaper
 
 This package provides the companion code, fixed evaluation tables and reproducibility materials. The scientific task is 6, 12, 24 and 48 hour significant wave height quantile forecasting from the previous 168 hours at six Chinese offshore ERA5 points. Reference distributions are adapted with median and ordered gap corrections. Reference-specific ablations assess query information; weather masks define explicit fallback. A separate complete-input comparison evaluates TabM, boosted trees and a frozen state aggregation. Most of its gain over enhanced LightGBM is already explained by TabM; the additional aggregation gain is small.
+
+## Added in version 0.3.0
+
+The SCI application revision retains the original adapter and adds fixed identical training masks for LightGBM, TabM and the empirical adapter. Both summary-availability TabM and an explicit 80-feature missing-indicator control are reported, with three seeds per neural configuration. Masks are fixed across epochs. All methods stop on complete 2020 targets; 2021 is report only. Thirteen state-gate subsets are refitted on 2020/2021 only. All new analyses are exploratory after the evaluation periods had already been inspected.
+
+    python reproduce.py --stage sci-prepare
+    python reproduce.py --stage sci-training
+    python reproduce.py --stage sci-evaluate
+    python reproduce.py --stage sci-components
+    python reproduce.py --stage sci-resources
+
+Training is sequential to limit memory use. Checkpoints and completed predictions are reused; use a fresh research/sci4_revision_20261018 output directory for a new training run. The original reproduction-assets.zip is required. The additional reproduction-sci4-assets.zip provides the new fixed masks, prepared inputs, checkpoints and forecasts for cached replay and any extra validation banks needed for component refits. Both archives still require public upload. Run verify_assets.py and verify_assets_sci4.py to verify each manifest after extraction. The source-only figure stage uses exported CSV tables and additionally regenerates both revised main figures in English and Chinese. CPU benchmark figures report model inference only and exclude full seven-expert and foundation latency; checkpoint sizes are not runtime RAM.
 
 ## Environment and figure reproduction
 
@@ -50,3 +62,7 @@ research/fusion_revision_20261017/train_tabm.py, train_trees.py and train_cat_po
 Run python verify_assets.py after extracting the snapshot to check all 221 file hashes. No credential files or internal reviewer correspondence are part of this source package.
 
 The independent-directory replay record is in REPRODUCTION_CHECK.json. It confirms 30 byte-identical figure files and four recomputed result tables at numerical tolerance 1e-12 in the recorded environment.
+
+The incremental snapshot has 431425196 bytes; SHA-256 6aaf7c4227d87b5b3c571a202acdb60ff1e187519964941eb9b6d94b738f3477. Its public upload and an archival DOI are pending. ASSETS_sci4.json lists 174 file hashes. Legacy source/path migration records are retained.
+
+Independent-directory verification of version 0.3.0 checked both snapshot manifests, 42 byte-identical figure files, 8 bitwise-identical complete/absent-weather checkpoint prediction replays and 5 recomputed tables at tolerance 1e-12. The detailed record is REPRODUCTION_CHECK_SCI4.json.

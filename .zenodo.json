@@ -1,5 +1,5 @@
 {
-  "title": "Historical Weather Adaptation and State Conditioned Aggregation for Offshore Wave Forecasting",
+  "title": "Historical Distribution Adaptation for Probabilistic Offshore Wave Forecasting with Incomplete Weather Histories",
   "creators": [
     {
       "name": "Chen, Yujie"
@@ -8,7 +8,7 @@
   "description": "Versioned code, fixed protocols and result tables for six Chinese offshore ERA5 points. Source code uses MIT; ERA5 and third-party models retain their licenses. Source repository: https://github.com/chen5512008/myPaper. Persistent archival DOI and large snapshot upload are pending.",
   "upload_type": "software",
   "license": "MIT",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "keywords": [
     "ERA5",
     "wave forecasting",

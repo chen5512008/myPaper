@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-10-18T03:32:24.980801+00:00",
+  "purpose": "Equalize a fixed set of weather masks across retrained LightGBM, TabM and empirical adapter",
+  "status": "Exploratory analysis after all 2022-2026Q3 results were inspected; no new confirmatory holdout",
+  "training": "2000-2019 targets",
+  "early_stopping": "2020 complete-input targets for every model",
+  "2021": "report only, not a model search",
+  "model_seeds": {
+    "LightGBM": [
+      17
+    ],
+    "TabM": [
+      17,
+      29,
+      43
+    ],
+    "Empirical_adapter": [
+      17,
+      29,
+      43
+    ]
+  },
+  "mask_seed": 20261018,
+  "mask_distribution": "50% complete, 25% random30, 25% terminal length uniformly 3/6/12/24/168",
+  "views": "One fixed mask per training origin, shared across all models and neural seeds; not dynamic augmentation per epoch",
+  "tabular_features": "161 original causal features plus 4 full-history and 4 last24 weather availability fractions. LightGBM native NaNs and available-only summaries. TabM training-mean imputes feature NaNs and gets the same 8 availability fractions.",
+  "models": "Original architectures and optimizer budgets. LightGBM 600 trees/patience40. TabM60 epochs/patience8, global checkpoint only. Adapter30/patience5. No test-driven changes.",
+  "test_scenarios": [
+    "complete",
+    "random30",
+    "last24",
+    "all_missing"
+  ],
+  "evaluation_masks": "Reuse the exact saved masks from reviewer follow-up, seed777",
+  "pre_evaluation_amendments": [
+    {
+      "created_utc": "2026-10-18T03:52:06.019367+00:00",
+      "reason": "A mean-imputed tabular feature may equal a valid mean observation. Add explicit NaN indicators for every weather feature that is missing in training so the TabM baseline can distinguish these cases, as the adapter can.",
+      "tabm_indicator_seeds": [
+        17,
+        29,
+        43
+      ],
+      "feature_rule": "Append one binary indicator per original numeric column with any training NaN; training-only determination, then freeze columns. Keep the original summary-availability TabM as an additional prespecified control.",
+      "test_scores_seen": false,
+      "hyperparameters": "Unchanged except input dimension implied by the additional indicators; max60epochs/patience8,2020complete early stopping."
+    }
+  ]
+}

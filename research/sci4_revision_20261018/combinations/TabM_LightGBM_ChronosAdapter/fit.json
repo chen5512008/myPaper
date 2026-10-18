@@ -1,0 +1,79 @@
+{
+  "members": [
+    "TabM",
+    "LightGBM",
+    "Chronos_adapter"
+  ],
+  "best_validation2021": 0.11569156497716904,
+  "best_epoch": 5,
+  "trace": [
+    {
+      "epoch": 1,
+      "validation2021": 0.1157630980014801
+    },
+    {
+      "epoch": 2,
+      "validation2021": 0.11574840545654297
+    },
+    {
+      "epoch": 3,
+      "validation2021": 0.115727499127388
+    },
+    {
+      "epoch": 4,
+      "validation2021": 0.11572536826133728
+    },
+    {
+      "epoch": 5,
+      "validation2021": 0.11569156497716904
+    },
+    {
+      "epoch": 6,
+      "validation2021": 0.1157221570611
+    },
+    {
+      "epoch": 7,
+      "validation2021": 0.11573974788188934
+    },
+    {
+      "epoch": 8,
+      "validation2021": 0.11577329784631729
+    },
+    {
+      "epoch": 9,
+      "validation2021": 0.11578761041164398
+    },
+    {
+      "epoch": 10,
+      "validation2021": 0.11582938581705093
+    },
+    {
+      "epoch": 11,
+      "validation2021": 0.11582206189632416
+    },
+    {
+      "epoch": 12,
+      "validation2021": 0.11586064845323563
+    },
+    {
+      "epoch": 13,
+      "validation2021": 0.11586318910121918
+    },
+    {
+      "epoch": 14,
+      "validation2021": 0.11587245017290115
+    },
+    {
+      "epoch": 15,
+      "validation2021": 0.11592046916484833
+    },
+    {
+      "epoch": 16,
+      "validation2021": 0.11589822173118591
+    },
+    {
+      "epoch": 17,
+      "validation2021": 0.11589799076318741
+    }
+  ]
+}

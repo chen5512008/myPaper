@@ -1,0 +1,99 @@
+{
+  "lightgbm_17__complete": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "lightgbm_17__all_missing": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "tabm_17__complete": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "tabm_17__all_missing": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "tabm_flags_17__complete": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "tabm_flags_17__all_missing": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "adapter_17__complete": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "adapter_17__all_missing": {
+    "checkpoint_replay_arrays_bitwise_identical": true
+  },
+  "evaluation/scores_by_seed.csv": {
+    "rows": 40,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "evaluation/summary.csv": {
+    "rows": 16,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "evaluation/paired_intervals.csv": {
+    "rows": 96,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "combinations/scores.csv": {
+    "rows": 42,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "combinations/paired_intervals.csv": {
+    "rows": 144,
+    "numeric_tolerance": 1e-12,
+    "passed": true
+  },
+  "figures": {
+    "count": 42,
+    "byte_identical": true,
+    "files": [
+      "review_followup_20261018/figures/ablation_en.pdf",
+      "review_followup_20261018/figures/ablation_en.png",
+      "review_followup_20261018/figures/ablation_en.svg",
+      "review_followup_20261018/figures/ablation_zh.pdf",
+      "review_followup_20261018/figures/ablation_zh.png",
+      "review_followup_20261018/figures/ablation_zh.svg",
+      "review_followup_20261018/figures/architecture_en.pdf",
+      "review_followup_20261018/figures/architecture_en.png",
+      "review_followup_20261018/figures/architecture_en.svg",
+      "review_followup_20261018/figures/architecture_zh.pdf",
+      "review_followup_20261018/figures/architecture_zh.png",
+      "review_followup_20261018/figures/architecture_zh.svg",
+      "review_followup_20261018/figures/interruption_en.pdf",
+      "review_followup_20261018/figures/interruption_en.png",
+      "review_followup_20261018/figures/interruption_en.svg",
+      "review_followup_20261018/figures/interruption_zh.pdf",
+      "review_followup_20261018/figures/interruption_zh.png",
+      "review_followup_20261018/figures/interruption_zh.svg",
+      "fusion_revision_20261017/results/figures/coverage_width.pdf",
+      "fusion_revision_20261017/results/figures/coverage_width.png",
+      "fusion_revision_20261017/results/figures/coverage_width.svg",
+      "fusion_revision_20261017/results/figures/expert_weights.pdf",
+      "fusion_revision_20261017/results/figures/expert_weights.png",
+      "fusion_revision_20261017/results/figures/expert_weights.svg",
+      "fusion_revision_20261017/results/figures/model_comparison.pdf",
+      "fusion_revision_20261017/results/figures/model_comparison.png",
+      "fusion_revision_20261017/results/figures/model_comparison.svg",
+      "fusion_revision_20261017/results/figures/site_horizon_gain.pdf",
+      "fusion_revision_20261017/results/figures/site_horizon_gain.png",
+      "fusion_revision_20261017/results/figures/site_horizon_gain.svg",
+      "sci4_revision_20261018/figures/component_attribution_en.pdf",
+      "sci4_revision_20261018/figures/component_attribution_en.png",
+      "sci4_revision_20261018/figures/component_attribution_en.svg",
+      "sci4_revision_20261018/figures/component_attribution_zh.pdf",
+      "sci4_revision_20261018/figures/component_attribution_zh.png",
+      "sci4_revision_20261018/figures/component_attribution_zh.svg",
+      "sci4_revision_20261018/figures/fair_missingness_en.pdf",
+      "sci4_revision_20261018/figures/fair_missingness_en.png",
+      "sci4_revision_20261018/figures/fair_missingness_en.svg",
+      "sci4_revision_20261018/figures/fair_missingness_zh.pdf",
+      "sci4_revision_20261018/figures/fair_missingness_zh.png",
+      "sci4_revision_20261018/figures/fair_missingness_zh.svg"
+    ]
+  }
+}

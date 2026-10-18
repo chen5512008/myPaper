@@ -1,0 +1,74 @@
+{
+  "members": [
+    "LightGBM",
+    "Neural3",
+    "Chronos_adapter",
+    "Chronos_native",
+    "XGBoost",
+    "CatBoost_RMSEcal"
+  ],
+  "best_validation2021": 0.11760412901639938,
+  "best_epoch": 3,
+  "trace": [
+    {
+      "epoch": 1,
+      "validation2021": 0.11763083934783936
+    },
+    {
+      "epoch": 2,
+      "validation2021": 0.11760900914669037
+    },
+    {
+      "epoch": 3,
+      "validation2021": 0.11760412901639938
+    },
+    {
+      "epoch": 4,
+      "validation2021": 0.11761404573917389
+    },
+    {
+      "epoch": 5,
+      "validation2021": 0.11766424030065536
+    },
+    {
+      "epoch": 6,
+      "validation2021": 0.11766800284385681
+    },
+    {
+      "epoch": 7,
+      "validation2021": 0.11766204982995987
+    },
+    {
+      "epoch": 8,
+      "validation2021": 0.11768238991498947
+    },
+    {
+      "epoch": 9,
+      "validation2021": 0.11774268001317978
+    },
+    {
+      "epoch": 10,
+      "validation2021": 0.11770486831665039
+    },
+    {
+      "epoch": 11,
+      "validation2021": 0.11774598807096481
+    },
+    {
+      "epoch": 12,
+      "validation2021": 0.11778248101472855
+    },
+    {
+      "epoch": 13,
+      "validation2021": 0.11781847476959229
+    },
+    {
+      "epoch": 14,
+      "validation2021": 0.1178102046251297
+    },
+    {
+      "epoch": 15,
+      "validation2021": 0.1178402379155159
+    }
+  ]
+}

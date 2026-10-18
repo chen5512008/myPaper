@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-10-18T03:38:33.300298+00:00",
+  "resource_event": "Concurrent LightGBM construction and whole-array combination replay exhausted Windows memory/commit. No parameter or model-budget change.",
+  "mitigation": "Use a CPU-only LightGBM runner without a CUDA runtime, two independent quantile jobs with two threads each; adapter histories streamed from a memory-mapped file; gate replay uses1024-origin batches. Scientific configurations unchanged.",
+  "scientific_status": "All analyses exploratory on already inspected benchmark; no attempt to relabel a period as untouched.",
+  "console_capture_note": "Initial PowerShell loop completed all six neural runs successfully, then exited1 because a trailing redirection token was parsed as a command. Individual completed.json files and training traces verify all six runs. Corrected redirection is used for the additional indicator controls.",
+  "second_event": "Two-job CPU LightGBM eventually warned bad allocation during h24q7/q8 while indicator TabM trained. Twenty-four earlier models were saved before warnings; no h24q7/q8 or h48 model was saved. No completed model from a warned fit is retained.",
+  "final_schedule": "Finish all GPU TabM controls first, then complete the remaining12LightGBM models sequentially (one job, two threads). No scoring until every scheduled checkpoint is frozen and the new tree log has no allocation warning. Model parameters,600tree ceiling and early stopping unchanged."
+}

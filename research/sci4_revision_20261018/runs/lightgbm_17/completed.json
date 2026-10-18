@@ -1,0 +1,192 @@
+{
+  "completed_utc": "2026-10-18T04:08:04.459912+00:00",
+  "model": "lightgbm",
+  "seed": 17,
+  "seconds": 276.7442068000091,
+  "validation2020": 0.11457058215680635,
+  "validation2021_report_only": 0.12075165782571719,
+  "trace": [
+    {
+      "horizon": 6,
+      "quantile": 0.1,
+      "iteration": 600
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.2,
+      "iteration": 596
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.3,
+      "iteration": 599
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.4,
+      "iteration": 599
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.5,
+      "iteration": 599
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.6,
+      "iteration": 598
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.7,
+      "iteration": 599
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.8,
+      "iteration": 600
+    },
+    {
+      "horizon": 6,
+      "quantile": 0.9,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.1,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.2,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.3,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.4,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.5,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.6,
+      "iteration": 599
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.7,
+      "iteration": 583
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.8,
+      "iteration": 600
+    },
+    {
+      "horizon": 12,
+      "quantile": 0.9,
+      "iteration": 586
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.1,
+      "iteration": 596
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.2,
+      "iteration": 600
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.3,
+      "iteration": 594
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.4,
+      "iteration": 599
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.5,
+      "iteration": 591
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.6,
+      "iteration": 600
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.7,
+      "iteration": 479
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.8,
+      "iteration": 488
+    },
+    {
+      "horizon": 24,
+      "quantile": 0.9,
+      "iteration": 336
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.1,
+      "iteration": 359
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.2,
+      "iteration": 369
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.3,
+      "iteration": 598
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.4,
+      "iteration": 599
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.5,
+      "iteration": 480
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.6,
+      "iteration": 586
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.7,
+      "iteration": 393
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.8,
+      "iteration": 411
+    },
+    {
+      "horizon": 48,
+      "quantile": 0.9,
+      "iteration": 142
+    }
+  ],
+  "test_evaluated": false,
+  "resource_runner": "CPU-only sequential quantile jobs with two threads; healthy completed models reused after documented interrupted resource attempts; statistical recipe unchanged"
+}

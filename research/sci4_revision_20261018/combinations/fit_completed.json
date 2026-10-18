@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-10-18T03:38:26.877399+00:00",
+  "checkpoints": {
+    "TabM_LightGBM": "5c71268b2ebde5ac3aacdafa70d1596e901ba47e5cd4f5550cdd8efe89bb1f56",
+    "TabM_LightGBM_ChronosAdapter": "31f684f68e5750ed2a6f7350b52e72e05bbc3fabc645b659b3340b4940016da3",
+    "TabM_LightGBM_Neural3": "ae6b9269b01aec16c710fcb9046f9e0da07e2415572debb23ce4c4e501bd2b07",
+    "TabM_LightGBM_BothAdapters": "bfce8a9d69db4e19998449085db5208b87f445e84e38bc4a735ee6a3ecd7c1eb",
+    "All": "b8513003188d9141049075e4e4648948cd0c1ed0d85ca5b06f4ea541725ffa33",
+    "All_without_adapters": "a3a3258ac205f11b5fbcc84e5648dc454cb258952b3ee153e4ac5020bf2535fa",
+    "All_without_LightGBM": "809366616863b5853861d6bb275a9a414dd1ba0c8df4c2a635b17977dffcb6dd",
+    "All_without_Neural3": "225f918efe2ae2a4ca9dfe877cbb84539f0786e94838c85a10ea3a9340a4be5a",
+    "All_without_Chronos_adapter": "803535f9403d96705a7af5a00ecc791f38843c807f3b88ecb8437d8d5adb049e",
+    "All_without_Chronos_native": "127084f12d41abdd5f4dd94d76cce24ea38fdecee02e85d9d3835b1d92189caa",
+    "All_without_XGBoost": "2f8b3d23eca92909d3a0eb29ed66bd34bea6039a95848711f0a97028851f2ad7",
+    "All_without_CatBoost_RMSEcal": "0defbd085323a6c73a5fcc0e1302b0b4ba7b410d487a72856d5e277d8e1105b2",
+    "All_without_TabM": "58cb8a3957b3b9a21e365d2b5b0d735b53cf63e1b2cffb0a7ba86fcea27feab0"
+  }
+}

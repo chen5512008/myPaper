@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite this software; a persistent archive DOI is pending."
-title: "Historical Weather Adaptation and State Conditioned Aggregation for Offshore Wave Forecasting"
+title: "Historical Distribution Adaptation for Probabilistic Offshore Wave Forecasting with Incomplete Weather Histories"
 authors:
   - family-names: Chen
     given-names: Yujie
-version: 0.2.0
+version: 0.3.0
 date-released: 2026-10-18
 license: MIT
 repository-code: "https://github.com/chen5512008/myPaper"
